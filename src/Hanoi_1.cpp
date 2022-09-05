@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Hanoi_2.h"
+#include "../include/Hanoi_2.h"
 using namespace std;
 
 

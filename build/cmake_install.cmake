@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

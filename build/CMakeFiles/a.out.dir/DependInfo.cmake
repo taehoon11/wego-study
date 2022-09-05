@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_1.cpp" "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/CMakeFiles/a.out.dir/Hanoi_1.cpp.o"
-  "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_2.cpp" "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/CMakeFiles/a.out.dir/Hanoi_2.cpp.o"
+  "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/lib/Hanoi_2.cpp" "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.o"
+  "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/src/Hanoi_1.cpp" "/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/a.out.dir/src/Hanoi_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

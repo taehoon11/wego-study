@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/a.out.dir/Hanoi_2.cpp.o CMakeFiles/a.out.dir/Hanoi_1.cpp.o  -o a.out 

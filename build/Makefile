@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final
+CMAKE_BINARY_DIR = /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/CMakeFiles /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,59 @@ a.out/fast:
 	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
 .PHONY : a.out/fast
 
-Hanoi_1.o: Hanoi_1.cpp.o
+lib/Hanoi_2.o: lib/Hanoi_2.cpp.o
 
-.PHONY : Hanoi_1.o
-
-# target to build an object file
-Hanoi_1.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Hanoi_1.cpp.o
-.PHONY : Hanoi_1.cpp.o
-
-Hanoi_1.i: Hanoi_1.cpp.i
-
-.PHONY : Hanoi_1.i
-
-# target to preprocess a source file
-Hanoi_1.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Hanoi_1.cpp.i
-.PHONY : Hanoi_1.cpp.i
-
-Hanoi_1.s: Hanoi_1.cpp.s
-
-.PHONY : Hanoi_1.s
-
-# target to generate assembly for a file
-Hanoi_1.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Hanoi_1.cpp.s
-.PHONY : Hanoi_1.cpp.s
-
-Hanoi_2.o: Hanoi_2.cpp.o
-
-.PHONY : Hanoi_2.o
+.PHONY : lib/Hanoi_2.o
 
 # target to build an object file
-Hanoi_2.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Hanoi_2.cpp.o
-.PHONY : Hanoi_2.cpp.o
+lib/Hanoi_2.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.o
+.PHONY : lib/Hanoi_2.cpp.o
 
-Hanoi_2.i: Hanoi_2.cpp.i
+lib/Hanoi_2.i: lib/Hanoi_2.cpp.i
 
-.PHONY : Hanoi_2.i
+.PHONY : lib/Hanoi_2.i
 
 # target to preprocess a source file
-Hanoi_2.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Hanoi_2.cpp.i
-.PHONY : Hanoi_2.cpp.i
+lib/Hanoi_2.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.i
+.PHONY : lib/Hanoi_2.cpp.i
 
-Hanoi_2.s: Hanoi_2.cpp.s
+lib/Hanoi_2.s: lib/Hanoi_2.cpp.s
 
-.PHONY : Hanoi_2.s
+.PHONY : lib/Hanoi_2.s
 
 # target to generate assembly for a file
-Hanoi_2.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/Hanoi_2.cpp.s
-.PHONY : Hanoi_2.cpp.s
+lib/Hanoi_2.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.s
+.PHONY : lib/Hanoi_2.cpp.s
+
+src/Hanoi_1.o: src/Hanoi_1.cpp.o
+
+.PHONY : src/Hanoi_1.o
+
+# target to build an object file
+src/Hanoi_1.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Hanoi_1.cpp.o
+.PHONY : src/Hanoi_1.cpp.o
+
+src/Hanoi_1.i: src/Hanoi_1.cpp.i
+
+.PHONY : src/Hanoi_1.i
+
+# target to preprocess a source file
+src/Hanoi_1.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Hanoi_1.cpp.i
+.PHONY : src/Hanoi_1.cpp.i
+
+src/Hanoi_1.s: src/Hanoi_1.cpp.s
+
+.PHONY : src/Hanoi_1.s
+
+# target to generate assembly for a file
+src/Hanoi_1.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Hanoi_1.cpp.s
+.PHONY : src/Hanoi_1.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... a.out"
 	@echo "... edit_cache"
-	@echo "... Hanoi_1.o"
-	@echo "... Hanoi_1.i"
-	@echo "... Hanoi_1.s"
-	@echo "... Hanoi_2.o"
-	@echo "... Hanoi_2.i"
-	@echo "... Hanoi_2.s"
+	@echo "... lib/Hanoi_2.o"
+	@echo "... lib/Hanoi_2.i"
+	@echo "... lib/Hanoi_2.s"
+	@echo "... src/Hanoi_1.o"
+	@echo "... src/Hanoi_1.i"
+	@echo "... src/Hanoi_1.s"
 .PHONY : help
 
 

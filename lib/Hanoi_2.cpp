@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Hanoi_2.h"
+#include "../include/Hanoi_2.h"
 using namespace std;
 
 Hanoi::Hanoi(int N_new,int home_new,int target_new,int remain_new)
