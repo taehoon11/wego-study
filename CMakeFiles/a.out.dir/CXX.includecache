@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_1.cpp
+iostream
+-
+Hanoi_2.h
+/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_2.h
+
+/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_2.cpp
+iostream
+-
+Hanoi_2.h
+/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_2.h
+
+/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/Hanoi_2.h
+iostream
+-
+
