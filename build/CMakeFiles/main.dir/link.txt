@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/main.dir/src/Hanoi_1.cpp.o  -o main libhanoi.a 

@@ -1,3 +1,4 @@
-/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/rebuild_cache.dir
-/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/a.out.dir
-/home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/edit_cache.dir
+/home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles/rebuild_cache.dir
+/home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles/hanoi.dir
+/home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles/edit_cache.dir
+/home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles/main.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhanoi.a  CMakeFiles/hanoi.dir/lib/Hanoi_2.cpp.o
+/usr/bin/ranlib libhanoi.a
