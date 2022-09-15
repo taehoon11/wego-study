@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/Hanoi_2.h
+iostream
+-
+string
+-
+memory
+-
+
+/home/dangmu/cpp_study/intern/wego-study/src/Hanoi_1.cpp
+Hanoi_2.h
+/home/dangmu/cpp_study/intern/wego-study/src/Hanoi_2.h
+

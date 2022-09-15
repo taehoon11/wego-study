@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final
+CMAKE_SOURCE_DIR = /home/dangmu/cpp_study/intern/wego-study
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build
+CMAKE_BINARY_DIR = /home/dangmu/cpp_study/intern/wego-study/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles /home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wego/Taehoon_ws/cpp_practice/Hanoi/Hanoi_final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dangmu/cpp_study/intern/wego-study/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named a.out
+# Target rules for targets named hanoi
 
 # Build rule for target.
-a.out: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 a.out
-.PHONY : a.out
+hanoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanoi
+.PHONY : hanoi
 
 # fast build rule for target.
-a.out/fast:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
-.PHONY : a.out/fast
+hanoi/fast:
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/build
+.PHONY : hanoi/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 lib/Hanoi_2.o: lib/Hanoi_2.cpp.o
 
@@ -129,7 +142,7 @@ lib/Hanoi_2.o: lib/Hanoi_2.cpp.o
 
 # target to build an object file
 lib/Hanoi_2.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.o
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/lib/Hanoi_2.cpp.o
 .PHONY : lib/Hanoi_2.cpp.o
 
 lib/Hanoi_2.i: lib/Hanoi_2.cpp.i
@@ -138,7 +151,7 @@ lib/Hanoi_2.i: lib/Hanoi_2.cpp.i
 
 # target to preprocess a source file
 lib/Hanoi_2.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.i
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/lib/Hanoi_2.cpp.i
 .PHONY : lib/Hanoi_2.cpp.i
 
 lib/Hanoi_2.s: lib/Hanoi_2.cpp.s
@@ -147,7 +160,7 @@ lib/Hanoi_2.s: lib/Hanoi_2.cpp.s
 
 # target to generate assembly for a file
 lib/Hanoi_2.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/lib/Hanoi_2.cpp.s
+	$(MAKE) -f CMakeFiles/hanoi.dir/build.make CMakeFiles/hanoi.dir/lib/Hanoi_2.cpp.s
 .PHONY : lib/Hanoi_2.cpp.s
 
 src/Hanoi_1.o: src/Hanoi_1.cpp.o
@@ -156,7 +169,7 @@ src/Hanoi_1.o: src/Hanoi_1.cpp.o
 
 # target to build an object file
 src/Hanoi_1.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Hanoi_1.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Hanoi_1.cpp.o
 .PHONY : src/Hanoi_1.cpp.o
 
 src/Hanoi_1.i: src/Hanoi_1.cpp.i
@@ -165,7 +178,7 @@ src/Hanoi_1.i: src/Hanoi_1.cpp.i
 
 # target to preprocess a source file
 src/Hanoi_1.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Hanoi_1.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Hanoi_1.cpp.i
 .PHONY : src/Hanoi_1.cpp.i
 
 src/Hanoi_1.s: src/Hanoi_1.cpp.s
@@ -174,7 +187,7 @@ src/Hanoi_1.s: src/Hanoi_1.cpp.s
 
 # target to generate assembly for a file
 src/Hanoi_1.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/src/Hanoi_1.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Hanoi_1.cpp.s
 .PHONY : src/Hanoi_1.cpp.s
 
 # Help Target
@@ -184,8 +197,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... a.out"
+	@echo "... hanoi"
 	@echo "... edit_cache"
+	@echo "... main"
 	@echo "... lib/Hanoi_2.o"
 	@echo "... lib/Hanoi_2.i"
 	@echo "... lib/Hanoi_2.s"
